@@ -1,24 +1,27 @@
+//Implementing Conditional Statement
 #include<iostream>
 using namespace std;
 
 int main(){
-    int a = 123 ;
-    cout<<"The value of a is :"<<a<<endl;
+    int a , b;
+    cout<<"a ke liye input de de bhai:";
+    cin>> a ;
 
-    float b = 12.4;
-    cout<<"The value of b is:"<<b<<endl;
+    cout<<"b ke liye input de de bhai:";
+    cin>> b ;
 
-    double c = 13.444;
-    cout<<"The value of c is :"<<c<<endl;
+    if(a>b){
+        cout<<"Dekh Bhai a ki value zyada hone ke karan a b bada hai:"<<endl;
 
-    char d = 'a';
-    cout<<"The value of d is :"<<d<<endl;
+    }
+    else{
+        cout<<"Dekh Bhai b ki value zyada hone ke karan b a se bada hai:"<<endl;
+    }
 
-    bool e = true;
-    cout<<"The value of e is :"<<d<<endl;
 
-    int size = sizeof(e);
-    cout<<"The value of size is :"<<size<<endl;
+
+
+
 
 
 }
